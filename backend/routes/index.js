@@ -4,5 +4,4 @@ module.exports = app => {
     const LoginService = app.services.login;
 
     app.post(`/login`, LoginService.login);
-
 };
