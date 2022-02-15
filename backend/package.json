@@ -1,0 +1,53 @@
+{
+  "name": "projeto-padrao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development bash scripts.sh && NODE_ENV=development babel-node index.js",
+    "windows-dev": "set NODE_ENV=development && scripts.bat development && npm start",
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-amador/node_padrao.git"
+  },
+  "author": "Rodrigo Magalhães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo-amador/node_padrao/issues"
+  },
+  "homepage": "https://github.com/rodrigo-amador/node_padrao#readme",
+  "dependencies": {
+    "async": "^3.2.3",
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.3.1",
+    "express-validator": "^6.14.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.0.2",
+    "jwt-simple": "^0.5.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.16.1",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
